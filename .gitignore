@@ -6,7 +6,6 @@
 *.lo
 *.o
 *.obj
-.deps/
 
 # Precompiled Headers
 *.gch
@@ -31,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Cpputest
+*.Po
+*.trs
