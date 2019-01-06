@@ -3,16 +3,14 @@ CPPUTEST_HOME := cpputest-3.8
 TARGET_DIR := target
 
 SRC_DIRS := \
-	src/main/Interface \
-	src/main/LedDriver \
-	src/test/Double \
+	src/main/BackTracking \
 
 TEST_DIRS := \
 	src/test \
-	src/test/LedDriver \
+	src/test/BackTracking \
 
 CPP := g++
-CPPFLAGS := -std=c++11
+CPPFLAGS := -std=c++14
 CPPFLAGS += -g -Wall
 CPPFLAGS += -I$(CPPUTEST_HOME)/include $(foreach dir,$(SRC_DIRS),-I$(dir))
 
@@ -34,10 +32,10 @@ clean:
 	rm -f $(SRC_OBJS) $(TEST_OBJS) $(TARGET_DIR)/*
 
 .PHONY: cpputest
-cpputest: 
+cpputest:
 	cd $(CPPUTEST_HOME) && ./autogen.sh && \
 	./configure && make && make check
-	
+
 .PHONY: debug
 debug:
 	@echo
