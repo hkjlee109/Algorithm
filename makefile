@@ -4,10 +4,12 @@ TARGET_DIR := target
 
 SRC_DIRS := \
 	src/main/BackTracking \
+	src/main/String/KnuthMorrisPratt \
 
 TEST_DIRS := \
 	src/test \
 	src/test/BackTracking \
+	src/test/String/KnuthMorrisPratt \
 
 CPP := g++
 CPPFLAGS := -std=c++14
