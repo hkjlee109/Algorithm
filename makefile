@@ -4,12 +4,14 @@ TARGET_DIR := target
 
 SRC_DIRS := \
 	src/main/BackTracking \
+  src/main/Math \
 	src/main/Regex \
 	src/main/String/KnuthMorrisPratt \
 
 TEST_DIRS := \
 	src/test \
 	src/test/BackTracking \
+  src/test/Math \
 	src/test/Regex \
 	src/test/String/KnuthMorrisPratt \
 
