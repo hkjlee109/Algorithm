@@ -3,17 +3,17 @@ CPPUTEST_HOME := cpputest-3.8
 TARGET_DIR := target
 
 SRC_DIRS := \
-	src/main/BackTracking \
-  src/main/Math \
-	src/main/Regex \
-	src/main/String/KnuthMorrisPratt \
+	src/BackTracking \
+  src/Math \
+	src/Regex \
+	src/String/KnuthMorrisPratt \
 
 TEST_DIRS := \
-	src/test \
-	src/test/BackTracking \
-  src/test/Math \
-	src/test/Regex \
-	src/test/String/KnuthMorrisPratt \
+	test \
+	test/BackTracking \
+  test/Math \
+	test/Regex \
+	test/String/KnuthMorrisPratt \
 
 CPP := g++
 CPPFLAGS := -std=c++14

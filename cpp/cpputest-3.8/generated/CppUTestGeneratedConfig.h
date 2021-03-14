@@ -165,7 +165,7 @@
 #define CPPUTEST_PACKAGE_VERSION "3.8"
 #endif
 
-/* Define to necessary symbol if this constant uses a non-standard name on
+/* Define to necessary symbol if this constant uses a non-standard name on
    your system. */
 /* #undef PTHREAD_CREATE_JOINABLE */
 

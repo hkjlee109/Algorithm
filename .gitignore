@@ -34,3 +34,7 @@
 # Cpputest
 *.Po
 *.trs
+
+# js
+node_modules
+
